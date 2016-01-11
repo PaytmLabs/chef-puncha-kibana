@@ -2,7 +2,7 @@ require 'chefspec'
 
 # TODO: Add context for skip_start
 # TODO: Add context for skip_restart
-describe 'chamber-kibana::default' do
+describe 'puncha-kibana::default' do
   let(:platform) { 'centos' }
   let(:platform_version) { '6.5' }
   let(:chef_run) do
@@ -23,8 +23,8 @@ describe 'chamber-kibana::default' do
   end
 
   it 'includes basic recipes' do
-    expect(chef_run).to include_recipe('chamber-kibana::_preconditions')
-    expect(chef_run).to include_recipe('chamber-kibana::dependencies')
+    expect(chef_run).to include_recipe('puncha-kibana::_preconditions')
+    expect(chef_run).to include_recipe('puncha-kibana::dependencies')
     expect(chef_run).to include_recipe('ark')
   end
 

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: chamber-kibana
+# Cookbook Name:: puncha-kibana
 # Recipe:: dependencies
 #
 include_recipe 'chef-sugar::default'

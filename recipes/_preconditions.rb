@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: chamber-kibana
+# Cookbook Name:: puncha-kibana
 # Recipe:: _preconditions.rb
 #
 include_recipe 'chef-sugar::default'

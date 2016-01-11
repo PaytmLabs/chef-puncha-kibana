@@ -1,9 +1,9 @@
 #
-# Cookbook Name:: chamber-kibana
+# Cookbook Name:: puncha-kibana
 # Recipe:: default
 #
-include_recipe 'chamber-kibana::_preconditions'
-include_recipe 'chamber-kibana::dependencies'
+include_recipe 'puncha-kibana::_preconditions'
+include_recipe 'puncha-kibana::dependencies'
 include_recipe 'ark'
 
 # Create user and group

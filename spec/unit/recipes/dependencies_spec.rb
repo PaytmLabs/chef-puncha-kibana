@@ -1,6 +1,6 @@
 require 'chefspec'
 
-describe 'chamber-kibana::dependencies' do
+describe 'puncha-kibana::dependencies' do
   let(:platform) { 'centos' }
   let(:platform_version) { '6.5' }
   let(:chef_run) do
