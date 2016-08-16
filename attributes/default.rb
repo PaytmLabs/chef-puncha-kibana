@@ -52,10 +52,10 @@ default['kibana']['elasticsearch']['server'] = 'http://127.0.0.1:9200'
 default['kibana']['elasticsearch']['index'] = '.kibana'
 # The default application to load.
 default['kibana']['default_app_id'] = 'discover'
-# Time in seconds to wait for responses from the back end or elasticsearch.
+# Time in milliseconds to wait for responses from the back end or elasticsearch.
 # Note this should always be higher than "shard_timeout".
 # This must be > 0
-default['kibana']['request_timeout'] = '60'
+default['kibana']['request_timeout'] = '60000'
 # Time in milliseconds for Elasticsearch to wait for responses from shards.
 # Note this should always be lower than "request_timeout".
 # Set to 0 to disable (not recommended).
